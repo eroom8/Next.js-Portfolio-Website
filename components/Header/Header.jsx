@@ -17,10 +17,7 @@ const NAV__LINK = [
     path: "#services",
     display: "Services",
   },
-  {
-    path: "#portfolio",
-    display: "Portfolio",
-  },
+  
   {
     path: "#contact",
     display: "Contact",

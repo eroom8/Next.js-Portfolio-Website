@@ -16,11 +16,10 @@ const Services = () => {
 
                 <ServicesItem title="Web Development" icon="ri-computer-line" />
               </div>
-
-              <ServicesItem
-                title="Full-Stack Development"
-                icon="ri-code-s-slash-line"
-              />
+<div>
+              <ServicesItem title="Full-Stack Development" icon="ri-code-s-slash-line" />
+               <ServicesItem title="ICT Support"icon="ri-macbook-line" />
+               </div>
             </div>
           </Col>
 
@@ -28,13 +27,7 @@ const Services = () => {
             <SectionSubtitle subtitle="What I do" />
             <h3 className="mb-0 mt-4">Better Design,</h3>
             <h3 className="mb-4">Better Experience</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non amet
-              culpa nobis corporis officiis, numquam cupiditate, enim expedita
-              eveniet dolorum, aliquid nesciunt sapiente illo voluptatum!
-              Dolores fuga mollitia atque, placeat minima quibusdam accusantium!
-              Veniam, non distinctio dolorem rerum laboriosam deleniti.
-            </p>
+            
           </Col>
         </Row>
       </Container>
