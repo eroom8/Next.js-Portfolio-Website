@@ -45,14 +45,14 @@ const Testimonial = () => {
                     <h6>Software Engineer</h6>
                    
                   </div>
-                  <p> 
+                  
+                </div>
+                <p> 
                     Nice work kiongos
                      </p>
-                </div>
-
                
               </div>
-
+              
               <div className={`${classes.testimonial__item}`}>
                 <div className={`${classes.testimonial__client}`}>
                   <Image
@@ -66,15 +66,16 @@ const Testimonial = () => {
                   <div>
                     <h6>Henry Nichols</h6>
                     <h6>Web Developer</h6>
-                    <p>
-                      Kudos
-                    </p>
+                   
                   </div>
+                 
                 </div>
+              <p>
+                   kudos                    </p>
 
                 
               </div>
-
+             
               <div className={`${classes.testimonial__item}`}>
                 <div className={`${classes.testimonial__client}`}>
                   <Image
@@ -88,13 +89,15 @@ const Testimonial = () => {
                   <div>
                     <h6> Waiyia </h6>
                     <h6>Financial Accountant</h6>
-                    <p>
+                   
+                  </div>
+                 
+                </div>
+                <p>
                       Trusted
                     </p>
-                  </div>
-                </div>
-               
               </div>
+             
             </Slider>
           </Col>
         </Row>
