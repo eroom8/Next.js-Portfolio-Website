@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import Image from "next/image";
 import SectionSubtitle from "./SectionSubtitle";
-import network from "../../public/images/Connect.jpg";
+import img_connect from "../../public/images/Connect.png";
 import Slider from "react-slick";
 import classes from "../../styles/testimonial.module.css";
 
@@ -22,7 +22,7 @@ const Testimonial = () => {
       <Container>
         <Row>
           <Col lg="6" md="6" className={`${classes.testimonial__img}`}>
-            <Image alt="network-img" src={network} width="400" height="400" className=" rounded-2" />
+            <Image alt="network-img"  src={img_connect} width="400" height="400" className=" rounded-2" />
           </Col>
 
           <Col lg="6" md="6">
@@ -34,7 +34,7 @@ const Testimonial = () => {
                 <div className={`${classes.testimonial__client}`}>
                   <Image
                     alt="client-img"
-                    src="/images/connect.jpg"
+                    src="/images/profile.png"
                     width="50"
                     height="50"
                     className=" rounded-2"
@@ -57,7 +57,7 @@ const Testimonial = () => {
                 <div className={`${classes.testimonial__client}`}>
                   <Image
                     alt="client-img"
-                    src="/images/connect.jpg"
+                    src="/images/profile.png"
                     width="50"
                     height="50"
                     className=" rounded-2"
@@ -80,10 +80,10 @@ const Testimonial = () => {
                 <div className={`${classes.testimonial__client}`}>
                   <Image
                     alt="client-img"
-                    src="/images/connect.jpg"
+                    src="/images/profile.png"
                     width="50"
                     height="50"
-                    className=" rounded-2"
+                    className=" rounded"
                   />
 
                   <div>
