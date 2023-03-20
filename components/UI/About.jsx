@@ -5,8 +5,8 @@ import SectionSubtitle from "./SectionSubtitle";
 import Image from "next/image";
 
 import img01 from "../../public/images/prof-img.png";
-import img02 from "../../public/images/me.png";
-import img03 from "../../public/images/me.png";
+import img02 from "../../public/images/profpic.png";
+import img03 from "../../public/images/profpic.png";
 import img04 from "../../public/images/prof-img.png";
 
 import classes from "../../styles/about.module.css";
