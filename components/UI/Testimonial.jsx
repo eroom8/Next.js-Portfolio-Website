@@ -1,8 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import Image from "next/image";
+import Link from "next/link";
 import SectionSubtitle from "./SectionSubtitle";
-import img_connect from "../../public/images/Connect.png";
+import connection from "../../public/images/connect.png";
 import Slider from "react-slick";
 import classes from "../../styles/testimonial.module.css";
 
@@ -22,7 +23,7 @@ const Testimonial = () => {
       <Container>
         <Row>
           <Col lg="6" md="6" className={`${classes.testimonial__img}`}>
-            <Image alt="network-img"  src={img_connect} width="400" height="400" className=" rounded-2" />
+            <Image alt="network-img"  src={connection} width="400" height="400" className=" rounded-2" />
           </Col>
 
           <Col lg="6" md="6">
