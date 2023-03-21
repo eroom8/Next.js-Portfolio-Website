@@ -2,7 +2,7 @@ import React from "react";
 import classes from "../../styles/form.module.css";
 import { useForm, ValidationError } from '@formspree/react';
 function Form() {
-  const [state, handleSubmit] = useForm ("mgebydwv");
+  const [state, handleSubmit] = useForm ();
   if (state.succeeded) {
       return <p>Thanks message sent successifly!</p>;
   }
