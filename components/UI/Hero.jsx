@@ -37,9 +37,29 @@ const Hero = () => {
                   <a download href="/Eric_CV.pdf">
                   Download CV
                   </a>
-                </button>
-              </div>
+                </button>  
+
+               
+              
             </div>
+            <div className={`${classes.social__links}`}>
+              
+              <Link href="https://github.com/eroom8">
+                <i className="ri-github-line"></i>
+              </Link>
+             
+              <Link href="https://www.linkedin.com/in/eric-muthee-697985233">
+                <i className="ri-linkedin-line"></i>
+              </Link>
+              <Link href="https://www.instagram.com/eric.muthee/">
+                <i className="ri-instagram-line"></i>
+              </Link>
+              <Link href="https://twitter.com/EricMuthee11?t=6faKPptEMoHVwtP_4n0MKg&s=03">
+                <i className="ri-twitter-line"></i>
+              </Link>
+            </div>
+            
+              </div>
           </Col>
 
           {/* ========== hero img ============= */}

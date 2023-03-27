@@ -146,3 +146,13 @@
     display: none !important;
   }
 }
+.social__links {
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+  column-gap: 2rem;
+  color: #808dad !important;
+  font-size: 1.3rem !important;
+  cursor: pointer;
+
+}

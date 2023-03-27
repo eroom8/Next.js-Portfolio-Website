@@ -35,7 +35,7 @@ const Contact = () => {
                 <p>+254706361004</p>
               </li>
             </ul>
-
+<div></div>
             
             <div className={`${classes.social__links}`}>
               

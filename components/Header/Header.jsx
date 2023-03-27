@@ -1,5 +1,6 @@
 import React, { useRef, useEffect } from "react";
-
+import Image from "next/image";
+import buymecoffeeimg from "../../public/images/buymecoffee.png";
 import { Container } from "reactstrap";
 import classes from "./header.module.css";
 import Link from "next/link";
@@ -22,6 +23,12 @@ const NAV__LINK = [
     path: "#contact",
     display: "Contact",
   },
+  {
+    path: "#buymecoffee",
+    display: <a href=" https://www.buymeacoffee.com/eroom1998l" target="_blank"> 
+    <Image alt="buy me coffee" src={buymecoffeeimg}   className=" rounded"height="25" width="110 " /></a>
+    
+     },
 ];
 
 const Header = () => {
@@ -78,7 +85,9 @@ const Header = () => {
                   {" "}
                   
                   <i className="ri-phone-line"></i> +254706361004{" "}
+                   
                 </p>
+               
               </div>
             </div>
           </div>
