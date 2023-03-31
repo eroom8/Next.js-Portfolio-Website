@@ -6,6 +6,7 @@ import Link from "next/link";
 import Typewriter from 'typewriter-effect';
 import heroImg from "../../public/images/prof-img.png";
 import classes from "../../styles/hero.module.css";
+import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
@@ -29,21 +30,31 @@ const Hero = () => {
               </h5>
              
               <div className="mt-5">
-                <button className="primary__btn">
+                <motion.button className="primary__btn"
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}>
                   <Link href="#">Hire me</Link>
-                </button>
+                </motion.button>
 
-                <button className="secondary__btn"> 
-                  <a download href="/Eric_CV.pdf">
+                <motion.button className="secondary__btn"
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}> 
+                  <a download href="/ERIC_MUTHEE_CV.pdf">
                   Download CV
                   </a>
-                </button>  
+                </motion.button>  
 
                
               
             </div>
-            <div className={`${classes.social__links}`}>
-              
+            <motion.div className={`${classes.social__links}`}
+             transition={{
+              delay:1.2,
+              ease: "linear",
+              duration: 2,
+              x: { duration: 1 }
+            }}      
+            >
               <Link href="https://github.com/eroom8">
                 <i className="ri-github-line"></i>
               </Link>
@@ -57,15 +68,30 @@ const Hero = () => {
               <Link href="https://twitter.com/EricMuthee11?t=6faKPptEMoHVwtP_4n0MKg&s=03">
                 <i className="ri-twitter-line"></i>
               </Link>
-            </div>
+            </motion.div>
             
               </div>
           </Col>
 
           {/* ========== hero img ============= */}
           <Col lg="6" md="6">
-            <div className={`${classes.hero__img} text-end`}>
-              <Image alt="hero-image" src={heroImg} width="400" height="400" />
+            
+            <motion.div className={`${classes.hero__img} text-end`}
+           animate={{
+            y: [-1000,0],
+            }}
+          transition={{
+            delay:1,
+             duration:[1],
+             type: "spring", bounce: 0.25 ,  
+          }}
+        
+            >
+              <Image alt="hero-image" src={heroImg} width="400" height="400"/>
+              
+             
+
+     
 
               <div className={`${classes.hero__skills}`}>
                 <h6>Skills</h6>
@@ -100,7 +126,7 @@ const Hero = () => {
                   <h5 className="mb-0">2 Years</h5>
                 </div>
               </div>
-            </div>
+            </motion.div>
           </Col>
         </Row>
       </Container>

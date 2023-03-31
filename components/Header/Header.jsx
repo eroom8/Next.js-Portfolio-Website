@@ -4,7 +4,6 @@ import buymecoffeeimg from "../../public/images/buymecoffee.png";
 import { Container } from "reactstrap";
 import classes from "./header.module.css";
 import Link from "next/link";
-
 const NAV__LINK = [
   {
     path: "/",
@@ -26,7 +25,7 @@ const NAV__LINK = [
   {
     path: "#buymecoffee",
     display: <a href=" https://www.buymeacoffee.com/eroom1998l" target="_blank"> 
-    <Image alt="buy me coffee" src={buymecoffeeimg}   className=" rounded"height="25" width="110 " /></a>
+    <Image alt="buy me coffee" src={buymecoffeeimg}   className=" rounded" height="25" width="110 " /></a>
     
      },
 ];
