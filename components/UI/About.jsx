@@ -5,9 +5,9 @@ import SectionSubtitle from "./SectionSubtitle";
 import Image from "next/image";
 
 import img01 from "../../public/images/prof-img.png";
-import img02 from "../../public/images/profpic.png";
+import img02 from "../../public/images/graduation.png";
 import img03 from "../../public/images/profpic.png";
-import img04 from "../../public/images/prof-img.png";
+import img04 from "../../public/images/beach.png";
 
 import classes from "../../styles/about.module.css";
 
@@ -62,7 +62,7 @@ const About = () => {
               </button>
 
               <button className="secondary__btn"> 
-                  <a download href="/Eric_CV.pdf">
+                  <a download href="/Eric_muthee_CV.pdf">
                   Download CV
                   </a>
                 </button>

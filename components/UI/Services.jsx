@@ -4,6 +4,8 @@ import SectionSubtitle from "./SectionSubtitle";
 import classes from "../../styles/services.module.css";
 import ServicesItem from "./ServicesItem";
 
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+
 const Services = () => {
   return (
     <section id="services">
@@ -12,9 +14,13 @@ const Services = () => {
           <Col lg="6" md="6">
             <div className={`${classes.services__container}`}>
               <div>
+              <AnimationOnScroll animateIn="animate__bounceIn">
                 <ServicesItem title="App Development" icon="ri-apps-line" />
+                </AnimationOnScroll>
+                <AnimationOnScroll animateIn="animate__bounceIn">
 
                 <ServicesItem title="Web Development" icon="ri-computer-line" />
+                </AnimationOnScroll>
               </div>
 <div>
               <ServicesItem title="Full-Stack Development" icon="ri-code-s-slash-line" />

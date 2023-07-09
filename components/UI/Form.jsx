@@ -2,7 +2,7 @@ import React from "react";
 import classes from "../../styles/form.module.css";
 import { useForm, ValidationError } from '@formspree/react';
 function Form() {
-  const [state, handleSubmit] = useForm (process.local.env.NEXT_PUBLIC_FORM);
+  const [state, handleSubmit] = useForm ("mgebydwv");
   if (state.succeeded) {
       return <p>Thanks message sent successifly!</p>;
   }
@@ -11,6 +11,7 @@ function Form() {
       <div className={`${classes.form__group}`}>
         <input type="text" placeholder="Your Name" required />
       </div>
+
       <div className={`${classes.form__group}`}>
         <input type="email" placeholder="Email Address" required 
          id="email"         

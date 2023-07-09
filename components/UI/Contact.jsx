@@ -52,6 +52,9 @@ const Contact = () => {
               <Link href="https://twitter.com/EricMuthee11?t=6faKPptEMoHVwtP_4n0MKg&s=03">
                 <i className="ri-twitter-line"></i>
               </Link>
+              <Link href="https://wa.me/qr/SLJST3WZJJUOI1">
+                <i className="ri-whatsapp-fill"></i>
+              </Link>
             </div>
           </Col>
 
