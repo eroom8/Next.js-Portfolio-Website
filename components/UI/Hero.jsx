@@ -28,7 +28,7 @@ const Hero = () => {
   }}
 />       
               </h5>
-             
+             </div>
               <div className="mt-5">
                 <motion.button className="primary__btn"
                 whileHover={{ scale: 1.1 }}
@@ -42,14 +42,8 @@ const Hero = () => {
                
               
             </div>
-            <motion.div className={`${classes.social__links}`}
-             transition={{
-              delay:1.2,
-              ease: "linear",
-              duration: 2,
-              x: { duration: 1 }
-            }}      
-            >
+            <div className={`${classes.social__links}`}>
+
               <Link href="https://github.com/eroom8">
                 <i className="ri-github-line"></i>
               </Link>
@@ -66,14 +60,13 @@ const Hero = () => {
               <Link href="https://wa.me/+254706361004">
                 <i className="ri-whatsapp-fill"></i>
               </Link>
-            </motion.div>
+            
             
               </div>
           </Col>
 
           {/* ========== hero img ============= */}
           <Col lg="6" md="6">
-            
             <motion.div className={`${classes.hero__img} text-end`}
            animate={{
             y: [-1000,0],
@@ -82,15 +75,8 @@ const Hero = () => {
             delay:1,
              duration:[1],
              type: "spring", bounce: 0.25 ,  
-          }}
-        
-            >
+               }}>
               <Image alt="hero-image" src={heroImg} width="400" height="400"/>
-              
-             
-
-     
-
               <div className={`${classes.hero__skills}`}>
                 <h6>Skills</h6>
                 <span>
@@ -112,10 +98,8 @@ const Hero = () => {
                   <i className="ri-bar-chart-line"></i>
                 </span>
               </div>
-
-              <div
-                className={`${classes.hero__experience} d-flex align-items-center gap-3`}
-              >
+            
+              <div className={`${classes.hero__experience} d-flex align-items-center gap-3`}>
                 <span>
                   <i className="ri-lightbulb-flash-line"></i>
                 </span>
@@ -124,7 +108,7 @@ const Hero = () => {
                   <h5 className="mb-0">2 Years</h5>
                 </div>
               </div>
-            </motion.div>
+              </motion.div>
           </Col>
         </Row>
       </Container>
