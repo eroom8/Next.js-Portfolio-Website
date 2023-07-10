@@ -33,16 +33,11 @@ const Hero = () => {
                 <motion.button className="primary__btn"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}>
-                  <Link href="#">Hire me</Link>
+                  <a href="#contact" >Hire me</a>
+                  
                 </motion.button>
 
-                <motion.button className="secondary__btn"
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.9 }}> 
-                  <a download href="/Eric_muthee_CV.pdf">
-                  Download CV
-                  </a>
-                </motion.button>  
+                 
 
                
               
@@ -68,7 +63,7 @@ const Hero = () => {
               <Link href="https://twitter.com/EricMuthee11?t=6faKPptEMoHVwtP_4n0MKg&s=03">
                 <i className="ri-twitter-line"></i>
               </Link>
-              <Link href="https://wa.me/qr/SLJST3WZJJUOI1">
+              <Link href="https://wa.me/+254706361004">
                 <i className="ri-whatsapp-fill"></i>
               </Link>
             </motion.div>
